@@ -14,7 +14,7 @@ function outerFunction(arg) {
     bar();
 }
 
-outerFunction("hello closure"); // выводит "hello closure"
+outerFunction("hello closure"); // выводит "hello closure!"
 ```
 
 Как вы видите, внутренняя функция обращается к переменной (variableInOuterFunction) внешнего контекста. Переменные из внешней функции замкнуты(или связаны) во внутренней функции. Отсюда и термин **замыкания**. Сама концепция достаточно проста и интуитивна.
